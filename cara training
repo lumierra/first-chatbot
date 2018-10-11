@@ -1,1 +1,3 @@
 !python -m rasa_nlu.train -c config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
+
+python -m rasa_nlu.train -c config.yml --data data -o models --fixed_model_name nlu --project current --verbose

@@ -6,3 +6,5 @@
 - [besok lusa](tomorrow) hari apa ?
 - [kemarin lusa](yesterday) hari apa ?
 - [sekarang](today) [jam](time) [berapa](question) ?
+- [berapa](question) [lama](time) ?
+- [berapa](question) [menit](time) ?
