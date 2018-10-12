@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b520e601-0a92-4c6d-8a16-da7a78b9a147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/profile.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/greeting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/domain.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/story/stories.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,13 +26,13 @@
         <counts>
           <entry key="cara training" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="md" value="4" />
+          <entry key="md" value="7" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="1" />
         </counts>
@@ -38,13 +40,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cara training" value="120" />
-          <entry key="md" value="2181" />
+          <entry key="md" value="3051" />
+          <entry key="yml" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2181" />
+          <entry key="Markdown" value="3051" />
           <entry key="PLAIN_TEXT" value="120" />
+          <entry key="YAML" value="40" />
         </counts>
       </usages-collector>
     </session>
@@ -84,12 +88,48 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/profile.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="260">
                 <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/greeting.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="780">
+                <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/story/stories.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="390">
+                <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/domain/domain.yml">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -120,6 +160,9 @@
         <option value="$PROJECT_DIR$/cara training" />
         <option value="$PROJECT_DIR$/data/curhat.md" />
         <option value="$PROJECT_DIR$/data/profile.md" />
+        <option value="$PROJECT_DIR$/data/greeting.md" />
+        <option value="$PROJECT_DIR$/story/stories.md" />
+        <option value="$PROJECT_DIR$/domain/domain.yml" />
       </list>
     </option>
   </component>
@@ -154,6 +197,11 @@
               <item name="first-chatbot" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="first-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,6 +218,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/domain" />
+      <recent name="$PROJECT_DIR$/story" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -203,10 +253,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25378788" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33222592" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33222592" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" />
@@ -284,6 +334,36 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="260">
             <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/greeting.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="780">
+            <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/story/stories.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/domain.yml">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
