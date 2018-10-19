@@ -1,4 +1,5 @@
 
-python -m rasa_nlu.train -c config.yml --data data -o models --fixed_model_name nlu --project current --verbose
 
 python -m rasa_core.train -d domain/domain.yml -s story/stories.md -o models/dialogue
+python -m rasa_nlu.train -c config.yml --data data -o models --fixed_model_name nlu --project current --verbose
+

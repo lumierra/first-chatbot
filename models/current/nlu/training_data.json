@@ -1,0 +1,612 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "time_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "sekarang",
+            "entity": "today"
+          }
+        ],
+        "text": "sekarang hari apa ?"
+      },
+      {
+        "intent": "time_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "besok",
+            "entity": "tomorrow"
+          }
+        ],
+        "text": "besok hari apa ?"
+      },
+      {
+        "intent": "time_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "kemarin",
+            "entity": "yesterday"
+          }
+        ],
+        "text": "kemarin hari apa ?"
+      },
+      {
+        "intent": "time_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "hari ini",
+            "entity": "today"
+          }
+        ],
+        "text": "hari ini hari apa ?"
+      },
+      {
+        "intent": "time_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "besok lusa",
+            "entity": "tomorrow"
+          }
+        ],
+        "text": "besok lusa hari apa ?"
+      },
+      {
+        "intent": "time_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "kemarin lusa",
+            "entity": "yesterday"
+          }
+        ],
+        "text": "kemarin lusa hari apa ?"
+      },
+      {
+        "intent": "time_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "sekarang",
+            "entity": "today"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "jam",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "berapa",
+            "entity": "question"
+          }
+        ],
+        "text": "sekarang jam berapa ?"
+      },
+      {
+        "intent": "time_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "berapa",
+            "entity": "question"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "lama",
+            "entity": "time"
+          }
+        ],
+        "text": "berapa lama ?"
+      },
+      {
+        "intent": "time_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "berapa",
+            "entity": "question"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "menit",
+            "entity": "time"
+          }
+        ],
+        "text": "berapa menit ?"
+      },
+      {
+        "intent": "search_curhat",
+        "text": "Aku mau curhat ni!!"
+      },
+      {
+        "intent": "search_curhat",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "selingkuh",
+            "entity": "event"
+          }
+        ],
+        "text": "Pacar aku selingkuh"
+      },
+      {
+        "intent": "search_curhat",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "diputusin",
+            "entity": "event"
+          }
+        ],
+        "text": "Aku sedih banget karena diputusin sama cowok aku"
+      },
+      {
+        "intent": "search_curhat",
+        "text": "Kamu punya solusi engga ?"
+      },
+      {
+        "intent": "search_curhat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Rian",
+            "entity": "person"
+          }
+        ],
+        "text": "Rian akhirnya menemukan cinta sejatinnya"
+      },
+      {
+        "intent": "search_curhat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Riana",
+            "entity": "person"
+          },
+          {
+            "start": 49,
+            "end": 54,
+            "value": "Marji",
+            "entity": "person"
+          }
+        ],
+        "text": "Riana ditolak cintanya oleh seorang pria bernama Marji"
+      },
+      {
+        "intent": "search_curhat",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Aldo",
+            "entity": "person"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "Lala",
+            "entity": "person"
+          }
+        ],
+        "text": "Aldo dan Lala sejoli yang menjalin cinta dengan cara LDR"
+      },
+      {
+        "intent": "search_curhat",
+        "text": "Pacarku bukan pacarmu tapi pacarmu adalah pacarku"
+      },
+      {
+        "intent": "sports",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Indonesia",
+            "entity": "location"
+          },
+          {
+            "start": 25,
+            "end": 35,
+            "value": "Bima Sakti",
+            "entity": "person"
+          },
+          {
+            "start": 47,
+            "end": 61,
+            "value": "Alfath Fathier",
+            "entity": "person"
+          }
+        ],
+        "text": "Timnas Indonesia menang, Bima Sakti puji debut Alfath Fathier"
+      },
+      {
+        "intent": "sports",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Italia",
+            "entity": "location"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Ukraina",
+            "entity": "location"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Mancini",
+            "entity": "person"
+          }
+        ],
+        "text": "Italia vs Ukraina 1-1 Mancini soroti lini depan yang tidak efektif"
+      },
+      {
+        "intent": "sports",
+        "entities": [
+          {
+            "start": 7,
+            "end": 27,
+            "value": "Olimpiade Tokyo 2020",
+            "entity": "event"
+          },
+          {
+            "start": 58,
+            "end": 62,
+            "value": "Cina",
+            "entity": "location"
+          }
+        ],
+        "text": "Menuju Olimpiade Tokyo 2020, Panjat tebing raih 2 emas di Cina"
+      },
+      {
+        "intent": "sports",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "Madura United",
+            "entity": "org"
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "value": "Persib",
+            "entity": "org"
+          },
+          {
+            "start": 51,
+            "end": 60,
+            "value": "Persipura",
+            "entity": "org"
+          }
+        ],
+        "text": "Lupakan kekalahan dari Madura United, Persib tatap Persipura"
+      },
+      {
+        "intent": "search_profile",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "siapa",
+            "entity": "question"
+          }
+        ],
+        "text": "Kamu siapa ?"
+      },
+      {
+        "intent": "search_profile",
+        "text": "Lo sebenernya siapa sih ?"
+      },
+      {
+        "intent": "search_profile",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "apa",
+            "entity": "question"
+          }
+        ],
+        "text": "Pekerjaan kamu apa ?"
+      },
+      {
+        "intent": "search_profile",
+        "text": "Kamu laki-laki atau perempuan ?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Halo"
+      },
+      {
+        "intent": "greet",
+        "text": "Hai"
+      },
+      {
+        "intent": "greet",
+        "text": "Selamat malam"
+      },
+      {
+        "intent": "greet",
+        "text": "Selamat pagi"
+      },
+      {
+        "intent": "greet",
+        "text": "Selamat sore"
+      },
+      {
+        "intent": "greet",
+        "text": "Hai mang"
+      },
+      {
+        "intent": "greet",
+        "text": "Hai bot"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Paijo",
+            "entity": "person"
+          }
+        ],
+        "text": "Hai Paijo"
+      },
+      {
+        "intent": "greet",
+        "text": "What's up bro ?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "nanti lagi yah"
+      },
+      {
+        "intent": "goodbye",
+        "text": "sampai jumpa lagi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "sampai ketemu lagi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "lagi baik ni"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "ya"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "iya"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "good"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "baik"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "baik kok"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "lagi tidak ni"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "tidak"
+      },
+      {
+        "intent": "mood_great",
+        "text": "sangat baik"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sedih"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sangat sedih"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "buruk"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "engga yakin"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "amat sangat sedih"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "menderita"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "LDR",
+        "synonyms": [
+          "hubungan jarak jauh",
+          "Long Distance Relationshiop"
+        ]
+      },
+      {
+        "value": "engga",
+        "synonyms": [
+          "ga",
+          "tidak",
+          "enggak"
+        ]
+      },
+      {
+        "value": "tidak",
+        "synonyms": [
+          "ngga",
+          "engga",
+          "kagak",
+          "tak",
+          "tiada",
+          "bukan"
+        ]
+      },
+      {
+        "value": "Aku",
+        "synonyms": [
+          "saya",
+          "gue",
+          "gua",
+          "gw",
+          "diri sendiri"
+        ]
+      },
+      {
+        "value": "selingkuh",
+        "synonyms": [
+          "mendua",
+          "menduakan",
+          "mempunyai pasangan lebih dari satu"
+        ]
+      },
+      {
+        "value": "cowok",
+        "synonyms": [
+          "cowo",
+          "pria",
+          "laki-laki",
+          "lelaki"
+        ]
+      },
+      {
+        "value": "Kamu",
+        "synonyms": [
+          "Anda",
+          "Lo",
+          "Loe",
+          "Koe",
+          "Kon",
+          "Ngana",
+          "Koek",
+          "Situ",
+          "Lu",
+          "Ente",
+          "You",
+          "Ko",
+          "Sampean",
+          "Jenengan"
+        ]
+      },
+      {
+        "value": "sebenernya",
+        "synonyms": [
+          "asli",
+          "aslinya"
+        ]
+      },
+      {
+        "value": "lagi",
+        "synonyms": [
+          "berulang",
+          "juga",
+          "kembali",
+          "masih",
+          "pula",
+          "sedang",
+          "terus",
+          "pun"
+        ]
+      }
+    ]
+  }
+}

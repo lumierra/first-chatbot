@@ -18,6 +18,7 @@
 - tidak
 - enggak
 - ngga
+- g
 
 ## synonym:Aku
 - saya

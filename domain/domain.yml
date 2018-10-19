@@ -1,7 +1,7 @@
 intents:
   - greet
-  - goodbye
   - mood_affirm
+  - goodbye
   - mood_deny
   - mood_great
   - mood_unhappy
@@ -15,17 +15,16 @@ actions:
 
 templates:
   utter_greet:
-  - text: "Hey! Apa kabar bro/sis?"
+  - text: "Hai! Apa kabar bro/sis?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "test"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "ada yang bisa saya bantu ?"
 
   utter_happy:
-  - text: "Great carry on!"
+  - text: "baguslah kalo gitu"
 
   utter_goodbye:
-  - text: "Selamat datang kembali"
+  - text: "Daaaaaaaah, sampai ketemu lagi"

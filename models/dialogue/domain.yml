@@ -1,0 +1,36 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet:
+    use_entities: true
+- mood_affirm:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- mood_deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+slots: {}
+templates:
+  utter_cheer_up:
+  - text: test
+  utter_did_that_help:
+  - text: ada yang bisa saya bantu ?
+  utter_goodbye:
+  - text: Daaaaaaaah, sampai ketemu lagi
+  utter_greet:
+  - text: Hai! Apa kabar bro/sis?
+  utter_happy:
+  - text: baguslah kalo gitu
